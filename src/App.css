@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lora', serif !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px !important;
+}
+a,link{
+    text-decoration: none;
+    color: inherit;
+}
+#html-content{
+width: 100%;
+margin-bottom: 30px;
+min-height: 100vh;
+overflow: hidden;
+
+}
+
+.col-left{
+    background-color: rgb(48, 15, 15);
+    color: white;
+    /* width: 30%; */
+    border-right: 1px solid red;
+    padding: 20px 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row .col-left img{
+    width: 130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    opacity: 0.9 !important;
+}
+h3.header-title{
+    background-color: rgb(43, 41, 41);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.label{
+    font-size: 15px;
+}
+.col-left .item ul li{
+    margin: 10px 0px;
+    font-size: 13px;
+}
+.col-right{
+    background-color: white;
+    color: black;
+    /* width: 70%; */
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right .about{
+    font-size: 17px;
+    color: cadetblue;
+}
+@media (max-width:420px){
+    .col-right{
+        padding: 20px 20px !important;
+    }
+    .col-right .about {
+        font-size: 15px;
+        
+    }
+}
+.col-right h3{
+    padding: 5px;
+    font-weight: 500;
+    font-size: 27px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.col-right .experience-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 1px solid; */
+    margin-bottom: 15px;
+}
+
+.col-right .experience-item .left{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.col-right .experience-item .left span{
+    font-size: 16px;
+}
+.col-right .experience-item .right{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+.col-right .experience-item .right h1{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.col-right .experience-item .right .exp-desc{
+    font-size: 17px;
+    color: rgb(163, 152, 152);
+}
+@media (max-width:420px){
+    .col-right .experience-item .left{
+        font-size: 15px;
+        
+        background: lavenderblush;
+        width: fit-content;
+    }
+    .col-right .experience-item .right{
+        width: 100%;
+    }
+    .col-right .experience-item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .col-right .experience-item .right .exp-desc {
+        font-size: 15px;
+        
+    }
+    .col-right .experience-item .left{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .col-right .experience-item .right h1 {
+        font-size: 19px;
+       
+    }
+    .col-right .experience-item .right span {
+        font-size: 17px;
+       
+    }
+  
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+Button{
+    margin: 10px auto !important;
+}
+
+.skill-box{
+    border:1px solid rgba(97, 88, 88, 0.24);
+}
+
+h3.name{
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px !important;
+}
+
+.addformOuter{
+    width:800px;
+   max-width: 100%;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding:10px 0px;
+          margin:auto;
+          border:1px solid
+}
+
+.stepper{
+
+    max-width: 100%;
+}
+@media (max-width:420px){
+    .MuiStepper-root{
+        padding: 24px 0px !important;
+    }
+}
+
+@media (max-width:420px){
+    .MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+        font-size: 15px !important;
+    }
+}
+
+form{
+    margin: 0px 10px !important;
+    
+}
+
+@media (max-width:420px){
+    #standard-basic{
+     margin-left: 0px !important;
+     margin-right: 0px !important;
+     width: 100% !important;
+    }
+    
+}

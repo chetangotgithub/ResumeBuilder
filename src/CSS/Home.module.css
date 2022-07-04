@@ -1,0 +1,45 @@
+.body{
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    background-color: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 33%, rgba(0, 212, 255, 1) 100%);
+}
+.intro{
+    position: relative;
+    margin-left: 50px;
+    top: 89%;
+}
+.img{
+    position: relative;
+    margin-right: 50px;
+    top: 50%;
+}
+.login_btn{
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(228, 163, 59);
+    color: rgb(255, 255, 255);
+}
+.login_btn:hover{
+    animation:change 1s  ;
+    color: aliceblue;
+    background-color: rgb(20, 115, 20)
+}
+.back{
+    background-image: 'url(https: //source.unsplash.com/random)';
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes change{
+    from{
+        background-color: rgb(212, 135, 10);
+    color: rgb(255, 255, 255);
+    }
+    to{
+        color: aliceblue;
+        background-color: rgb(20, 115, 20);
+    }
+}
